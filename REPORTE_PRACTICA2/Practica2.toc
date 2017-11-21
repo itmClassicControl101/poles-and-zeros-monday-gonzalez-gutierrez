@@ -1,0 +1,17 @@
+\select@language {spanish}
+\contentsline {chapter}{Introducci\'on}{2}
+\contentsline {chapter}{\numberline {1}Metodolog\'ia.}{3}
+\contentsline {section}{\numberline {1.1}Obteni\'endola por el M\'etodo de Polos y Ceros}{3}
+\contentsline {section}{\numberline {1.2}Obteni\'endola la funci\'on de transferencia por m\'etodos tradicionales}{8}
+\contentsline {section}{\numberline {1.3}Comprobando en SciLab}{10}
+\contentsline {section}{\numberline {1.4}Obteniendo las formas de onda con LTI SPICE}{10}
+\contentsline {subsection}{\numberline {1.4.1}Respuesta en el tiempo}{10}
+\contentsline {subsection}{\numberline {1.4.2}Respuesta en la frecuencia}{11}
+\contentsline {chapter}{\numberline {2}Resultados y Discusi\'on}{15}
+\contentsline {section}{\numberline {2.1}Resultados y an\'alisis del circuito f\'isico}{15}
+\contentsline {subsection}{\numberline {2.1.1}Respuesta en el tiempo}{15}
+\contentsline {subsection}{\numberline {2.1.2}Respuesta en la frecuencia}{16}
+\contentsline {section}{\numberline {2.2}Graficando la respuesta en frecuencia}{16}
+\contentsline {section}{\numberline {2.3}Tau}{17}
+\contentsline {section}{\numberline {2.4}Discusi\'on}{18}
+\contentsline {chapter}{\numberline {3}Conclusiones}{22}
