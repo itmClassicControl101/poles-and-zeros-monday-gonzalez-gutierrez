@@ -16,7 +16,7 @@ rmargin=2.3cm,top=2.5cm,bottom=2.5cm]{geometry}
 \end{figure}
 \large{INSTITUTO TECN\'OLOGICO DE MORELIA\\ DEPARTAMENTO DE INGENIER\'IA ELECTR\'ONICA}
 \rule{150mm}{0.1mm}\vspace{1.2cm} 
-{\bf\Large CONTROL I}\\\vspace{0.8cm} {\bf{\huge Practica No. 2}\\ {\LARGE POLOS Y CEROS ENCONTRADOS POR INSPECCION}}\\\vspace{0.8cm} 
+{\bf\Large CONTROL I}\\\vspace{0.8cm} {\bf{\huge PrÃ¡ctica No. 2}\\ {\LARGE POLOS Y CEROS ENCONTRADOS POR INSPECCION}}\\\vspace{0.8cm} 
 \begin{tabular*}{15cm}{l@{\extracolsep{\fill}}l}
 {\Large Ariadne Paola Gonz\'alez Gallegos} & {\Large 13121114}\\
 {\Large Jos\'e Abel Guti\'errez \'Alvarez} & {\Large 13121117}\\
@@ -28,7 +28,7 @@ rmargin=2.3cm,top=2.5cm,bottom=2.5cm]{geometry}
 \addcontentsline{toc}{chapter}{Introducci\'on}
 %Fin de la portada inicio del reporte%
 \chapter*{Introducci\'on}
-Con anterioridad ya vimos como es que para sistemas de primer orden una forma de obtener la funci\'on de transferencia es por medio de m\'etodos de an\'alisis electr\'onico tradicionales, y que en caso de tener un sistema distinto a este, como lo son hidr\'aulico o mec\'anico, siempre podemos realizar una analog\'ia entre ellos. La forma de hacerlo es simple, consiste en obtener las formulas de balance de energ\'ia que definen al sistema y luego despejar una variable de salida sobre una de entrada, de tal forma que el termino resultante sera la ecuaci\'on que defina el comportamiento de nuestro sistema. \\ Pero, ¿Qu\'e pasa si el sistema no es tan simple?, ¿Qu\'e pasa con un circuito mas complejo?, bueno, obtener la funci\'on de transferencia de este por m\'etodos tradicionales puede ser un proceso medianamente complicado o realmente complicado, dependiendo del sistema, y de nuestra capacidad para el \'algebra, pero existe una forma mas simple de hacerlo, este m\'etodo consiste en encontrar algunas variables de inter\'es del circuito, como su punto de DC, sus polos y sus ceros, de tal manera que al utilizar esta informaci\'on podamos encontrar la funci\'on de transferencia del circuito mucho mas f\'acil, este m\'etodo es c\'omodo ya que la expresi\'on que se obtiene ya esta simplificada y tiene una forma con la cual, con la misma informaci\'on, podemos encontrar la funci\'on de transferencia en circuitos de segundo orden. \\ En esta practica compararemos ese m\'etodo con el utilizado en la practica anterior, tambi\'en utilizaremos un entorno de simulaci\'on tipo SPICE para realizar una predicci\'on de las respuestas en el tiempo y la frecuencia, y luego obtendremos las reales, para ver si se cumple lo que esperamos o no.
+Con anterioridad ya vimos como es que para sistemas de primer orden una forma de obtener la funci\'on de transferencia es por medio de m\'etodos de an\'alisis electr\'onico tradicionales, y que en caso de tener un sistema distinto a este, como lo son hidr\'aulico o mec\'anico, siempre podemos realizar una analog\'ia entre ellos. La forma de hacerlo es simple, consiste en obtener las formulas de balance de energ\'ia que definen al sistema y luego despejar una variable de salida sobre una de entrada, de tal forma que el termino resultante sera la ecuaci\'on que defina el comportamiento de nuestro sistema. \\ Pero, Â¿Qu\'e pasa si el sistema no es tan simple?, Â¿Qu\'e pasa con un circuito mas complejo?, bueno, obtener la funci\'on de transferencia de este por m\'etodos tradicionales puede ser un proceso medianamente complicado o realmente complicado, dependiendo del sistema, y de nuestra capacidad para el \'algebra, pero existe una forma mas simple de hacerlo, este m\'etodo consiste en encontrar algunas variables de inter\'es del circuito, como su punto de DC, sus polos y sus ceros, de tal manera que al utilizar esta informaci\'on podamos encontrar la funci\'on de transferencia del circuito mucho mas f\'acil, este m\'etodo es c\'omodo ya que la expresi\'on que se obtiene ya esta simplificada y tiene una forma con la cual, con la misma informaci\'on, podemos encontrar la funci\'on de transferencia en circuitos de segundo orden. \\ En esta practica compararemos ese m\'etodo con el utilizado en la practica anterior, tambi\'en utilizaremos un entorno de simulaci\'on tipo SPICE para realizar una predicci\'on de las respuestas en el tiempo y la frecuencia, y luego obtendremos las reales, para ver si se cumple lo que esperamos o no.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -234,7 +234,7 @@ Y de esta manera finalmente llegamos a:
 
 \begin{center}$H(S) = \frac{S(\frac{R_{3}}{R_{1}+R_{3}}) + \frac{R_{2}R_{3}}{L_{1}(R_{1}+R_{3})}}{S + \frac{R_{1}R_{2}+R_{1}R_{3}+R_{2}R_{3}}{L_{1}(R_{1}+R_{3})}}$\end{center}
 
-Observando detenidamente la ecuaci\'on anterior podemos ver que es la misma que la ecuaci\'on que la \ref{ecu:5}, con esto se comprueba que ambas están correctas.
+Observando detenidamente la ecuaci\'on anterior podemos ver que es la misma que la ecuaci\'on que la \ref{ecu:5}, con esto se comprueba que ambas estÃ¡n correctas.
 
 Ahora, para el capacitor es casi lo mismo, primero debemos obtener la malla 1:
 
